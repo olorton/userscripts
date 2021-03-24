@@ -3,7 +3,7 @@
 // @namespace   https://github.com/olorton/
 // @description Narrows the content of wikipedia pages so that they are easier to read on very wide screens.
 // @author      Oliver Lorton
-// @version     0.0.2
+// @version     0.0.3
 // @updateURL   https://raw.githubusercontent.com/olorton/userscripts/master/wikipedia-narrow-page.meta.js
 // @downloadURL https://raw.githubusercontent.com/olorton/userscripts/master/wikipedia-narrow-page.user.js
 // @supportURL  https://github.com/olorton/userscripts/issues
@@ -24,7 +24,7 @@ function addGlobalStyle(css) {
 
 addGlobalStyle(`
 #content {
-    max-width: 100px ! important;
+    max-width: 800px ! important;
     margin-left: auto;
     margin-right: auto;
 }
